@@ -1,0 +1,10 @@
+[package]
+name = "cs-project"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+cxx = "1.0.135"
+eframe = { version = "0.30.0", features = ["wgpu"] }
+tracing = { version = "0.1.41", features = ["release_max_level_info"] }
+tracing-subscriber = "0.3.19"
